@@ -24,13 +24,13 @@
     padding: 1rem;
     background: #e0e0e0;
   }
-  
+
   .menu-item {
     background: #ccc;
     padding: 0.5rem 1rem;
     border-radius: 8px;
   }
-  
+
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
