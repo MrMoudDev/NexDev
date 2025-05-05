@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header{
+    position: relative;
+    z-index: 1;
+}
+.video-fondo {
+    position: fixed;        
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;      
+    z-index: -1;            
+}
+main{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    height: 500px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questionary-container {
+    padding: 30px;
+    padding-top: 80px;
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+width: 440px;
+height: 600px;
+border-radius: 10%;
+border: 1px solid #000000;
+background-color: rgba(0, 0, 0, 0.4);
+
+}
+.questionary  input{
+    margin-bottom: 15px;
+}
+
+.questionary label{
+font-size:20px;
+font-family: "JetBrains Mono", monospace;
+font-optical-sizing: auto;
+}
+
+
+.password-input {
+    width: 250px;
+    padding: 8px;
+    padding-right: 60px; 
+    border: 1px solid #000000; 
+    background-color: #f9f9f9;
+}
+
+.remember-me{
+    display: flex;
+    font-size: 20px;
+}
+
+label {
+    color: #f9f9f9;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+.terms-and-conditions{
+    color: #f9f9f9;
+    width: 330px;
+    text-align: center;
+}
+
+.accept button{
+    font-family:"JetBrains Mono", monospace;
+    width: 200px;
+    height: 80px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.divider {
+    color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
